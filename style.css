@@ -152,6 +152,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
   .card1 { grid-column: 1 / span 2; }
+  .card2 { grid-column: 1 / span 1; }
+  .card3 { grid-column: 2 / span 1; }
+  .card4 { grid-column: 1 / span 1; }
+  .card5 { grid-column: 2 / span 1; }
   .card6 { grid-column: 1 / span 2; }
 }
 
