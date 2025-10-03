@@ -60,6 +60,21 @@ body {
   font-size: 14px;
   color: hsl(236, 100%, 87%);
 }
+.profile-info {
+  height: 100%;
+
+}
+.rr{
+  font-size: 14px;
+  color: hsl(236, 100%, 87%);
+}
+ggg{
+  font-size: 20px;
+  font-weight: 500;
+}
+h3{
+  font-size: medium;
+}
 
 .timeframe {
   list-style: none;
@@ -81,6 +96,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  border-radius: 20px;
 }
 
 .card1 {
@@ -102,6 +118,7 @@ body {
   border-radius: 15px;
   overflow: hidden;
   position: relative;
+  
 }
 
 .card-header {
@@ -109,6 +126,7 @@ body {
   background-repeat: no-repeat;
   background-position: right 15px top 10px;
   background-size: 40px;
+
 }
 
 .card1 .card-header { background-color: hsl(15, 100%, 70%); }
@@ -121,7 +139,7 @@ body {
 .card-content {
   padding: 20px;
   background-color: hsl(235, 46%, 20%);
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .card-content h3 {
